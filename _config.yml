@@ -1,7 +1,7 @@
 # Site settings
-title:          nano.trade
-description:    "Minimal Jekyll theme for storytellers"
-url:            "https://nano-trade.github.io"
+title:          nano.trade blog
+description:    "nano.trade Blog"
+url:            "https://blog.nano.trade"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
