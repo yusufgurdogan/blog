@@ -1,17 +1,16 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://yusufgurdogan.github.io"
+url:            "https://nano-trade.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Yusuf Gürdoğan
+  url:          https://blog.nano.trade
+  email:        example@mail.com
 
 # Build settings
 markdown:       kramdown
