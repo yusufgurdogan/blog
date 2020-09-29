@@ -1,15 +1,15 @@
 # Site settings
-title:          nano.trade blog
-description:    "nano.trade Blog"
-url:            "https://blog.nano.trade"
+title:          Yusuf Gürdoğan
+description:    "Blog sayfası"
+url:            "https://yusufgurdogan.com"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         nano.trade
-  url:          https://blog.nano.trade
+  name:         Yusuf Gürdoğan
+  url:          https://yusufgurdogan.com
   email:        example@mail.com
 
 # Build settings
