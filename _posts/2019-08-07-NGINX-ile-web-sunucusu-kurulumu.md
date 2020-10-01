@@ -45,7 +45,7 @@ sudo apt-get install -y nginx</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":512} -->
-<figure class="wp-block-image"><img src="/blog/assets/images/NGINX.png" alt="" class="wp-image-512"/><figcaption>Bu html dosyasının burada bulabilirsiniz:  "/var/www/html/index.nginx-debian.html"</figcaption></figure>
+<figure class="wp-block-image"><img src="/assets/images/NGINX.png" alt="" class="wp-image-512"/><figcaption>Bu html dosyasının burada bulabilirsiniz:  "/var/www/html/index.nginx-debian.html"</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -79,7 +79,7 @@ nano index.html</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":515} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="/blog/assets/images/NGINX-1.png" alt="" class="wp-image-515"/><figcaption>Sayfa değişmediyse şu komutu deneyin: <br><strong>systemctl reload nginx</strong></figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/assets/images/NGINX-1.png" alt="" class="wp-image-515"/><figcaption>Sayfa değişmediyse şu komutu deneyin: <br><strong>systemctl reload nginx</strong></figcaption></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"backgroundColor":"very-light-gray","textColor":"vivid-cyan-blue"} -->
@@ -95,7 +95,7 @@ nano index.html</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":518,"width":921,"height":159} -->
-<figure class="wp-block-image is-resized"><img src="/blog/assets/images/DNS-1-1024x178.png" alt="" class="wp-image-518" width="921" height="159"/><figcaption>Bu şekilde kaydediyorum.</figcaption></figure>
+<figure class="wp-block-image is-resized"><img src="/assets/images/DNS-1-1024x178.png" alt="" class="wp-image-518" width="921" height="159"/><figcaption>Bu şekilde kaydediyorum.</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"very-dark-gray","style":{"color":{"background":"#a7f0d3"}}} -->
@@ -103,7 +103,7 @@ nano index.html</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":521,"width":892,"height":99} -->
-<figure class="wp-block-image is-resized"><img src="/blog/assets/images/DNS-2-1024x114.png" alt="" class="wp-image-521" width="892" height="99"/></figure>
+<figure class="wp-block-image is-resized"><img src="/assets/images/DNS-2-1024x114.png" alt="" class="wp-image-521" width="892" height="99"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"backgroundColor":"pale-cyan-blue"} -->
@@ -167,7 +167,7 @@ nano index.html</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":522,"width":490,"height":214} -->
-<figure class="wp-block-image is-resized"><img src="/blog/assets/images/NGINX-OK.png" alt="" class="wp-image-522" width="490" height="214"/></figure>
+<figure class="wp-block-image is-resized"><img src="/assets/images/NGINX-OK.png" alt="" class="wp-image-522" width="490" height="214"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

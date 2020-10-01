@@ -5,7 +5,7 @@ Digitalocean anlatımlarında&nbsp;<a href="https://www.digitalocean.com/communi
  	<li style="list-style-type: none;">
 <ul>
  	<li>Ubuntu server'ınıza root olarak giriş yapın. Ben <a href="http://www.putty.org/" target="_blank" rel="noopener noreferrer">putty</a> kullanıyorum.
-<a href="/blog/assets/images/ubuntu-login.png" target="_blank" rel="noopener noreferrer"><img class="alignnone wp-image-142 size-full" src="/blog/assets/images/ubuntu-login.png" alt="ubuntu-login" width="661" height="466"></a></li>
+<a href="/assets/images/ubuntu-login.png" target="_blank" rel="noopener noreferrer"><img class="alignnone wp-image-142 size-full" src="/assets/images/ubuntu-login.png" alt="ubuntu-login" width="661" height="466"></a></li>
  	<li>Klasik başlangıç: <span style="color: #0000ff;">root yetkileri verilir</span> (her seferinde&nbsp;sudo yazmamak için) ve <span style="color: #ff0000;">update yapılır</span>.</li>
  	<li>
 <pre><span style="color: #0000ff;"><code>sudo -s</code></span></pre>
@@ -23,7 +23,7 @@ Digitalocean anlatımlarında&nbsp;<a href="https://www.digitalocean.com/communi
 </code></pre>
 </li>
 </ul>
-<a href="/blog/assets/images/ubuntu-file-descriptor-in-bad-state.png" target="_blank" rel="noopener noreferrer"><img class=" wp-image-151 size-full alignleft" src="/blog/assets/images/ubuntu-file-descriptor-in-bad-state.png" alt="" width="385" height="51"></a>&nbsp;Böyle yazması gerekiyor. Hata gibi görünüyor, değil mi?<strong>&nbsp;Böyle yazıyorsa sorun yok demektir, diğer adıma geçebilirsiniz.</strong> Böyle yazmıyorsa, server'ınızda&nbsp;TUN/TAP özelliği açık değil demektir. VPS'niz&nbsp;OpenVZ&nbsp;üzerine ise ve VPS manager'ı&nbsp;SolusVM ise&nbsp;SolusVM'de bu seçeneği görebilirsiniz. "On" yapın.<a href="/blog/assets/images/vpn-enable-tun-tap.png"><img class="alignnone wp-image-148 size-full" src="/blog/assets/images/vpn-enable-tun-tap.png" alt="vpn-enable-tun-tap" width="498" height="227"></a>
+<a href="/assets/images/ubuntu-file-descriptor-in-bad-state.png" target="_blank" rel="noopener noreferrer"><img class=" wp-image-151 size-full alignleft" src="/assets/images/ubuntu-file-descriptor-in-bad-state.png" alt="" width="385" height="51"></a>&nbsp;Böyle yazması gerekiyor. Hata gibi görünüyor, değil mi?<strong>&nbsp;Böyle yazıyorsa sorun yok demektir, diğer adıma geçebilirsiniz.</strong> Böyle yazmıyorsa, server'ınızda&nbsp;TUN/TAP özelliği açık değil demektir. VPS'niz&nbsp;OpenVZ&nbsp;üzerine ise ve VPS manager'ı&nbsp;SolusVM ise&nbsp;SolusVM'de bu seçeneği görebilirsiniz. "On" yapın.<a href="/assets/images/vpn-enable-tun-tap.png"><img class="alignnone wp-image-148 size-full" src="/assets/images/vpn-enable-tun-tap.png" alt="vpn-enable-tun-tap" width="498" height="227"></a>
 <ul>
  	<li>Şimdi OpenVPN kuruluma bu sihirli satırla başlıyoruz:</li>
 </ul>
@@ -39,7 +39,7 @@ Digitalocean anlatımlarında&nbsp;<a href="https://www.digitalocean.com/communi
 <a href="https://github.com/Nyr/openvpn-install/blob/master/openvpn-install.sh" target="_blank" rel="noopener noreferrer">openvpn-install.sh dosyasını GitHub'da incelemek isterseniz tıklayın.</a>
 
 Bundan sonra 1-2 dakika kadar bir işlem yapabilir. Ondan sonra&nbsp;<strong>(daha önce OpenVPN kurduysanız)</strong> şöyle bir soru soracak size:
-<a href="/blog/assets/images/openvpn-already-installed.png"><img class="alignleft wp-image-153 size-full" src="/blog/assets/images/openvpn-already-installed.png" alt="openvpn-already-installed" width="320" height="166"></a>"OpenVPN kurulmuş, ne yapalım?" Öncekini kaldırmanızı&nbsp;öneriyorum ben, "<span style="text-decoration: underline;"><strong>3" e basıp enterlayın, sonra da "y" , enter.</strong></span>
+<a href="/assets/images/openvpn-already-installed.png"><img class="alignleft wp-image-153 size-full" src="/assets/images/openvpn-already-installed.png" alt="openvpn-already-installed" width="320" height="166"></a>"OpenVPN kurulmuş, ne yapalım?" Öncekini kaldırmanızı&nbsp;öneriyorum ben, "<span style="text-decoration: underline;"><strong>3" e basıp enterlayın, sonra da "y" , enter.</strong></span>
 
 3'ü seçip kaldırmıştık, şimdi tekrar yüklemek için aynı komutu yine gireceğiz:
 
@@ -59,8 +59,8 @@ Bundan sonra 1-2 dakika kadar bir işlem yapabilir. Ondan sonra&nbsp;<strong>(da
 Tekrar enterladıktan sonra kurulumu yaparken sizi birkaç dakika bekletecek.
 <ul>
  	<li>VPN kurulumu tamamdır. :) Şimdi karşınızdaki ekranda ne yazıyor onları anlatayım biraz.
-<a href="/blog/assets/images/client-ovpn.png">
-</a><a href="/blog/assets/images/client-ovpn.png"><img class="alignnone wp-image-154" src="/blog/assets/images/client-ovpn.png" alt="client-ovpn" width="650" height="411"></a><em>Üstte diyor ki, sertifika 3650 gün (10 yıl) boyunca geçerlidir... Bunları geçelim</em>, altta bize lazım olan şey yazıyor:
+<a href="/assets/images/client-ovpn.png">
+</a><a href="/assets/images/client-ovpn.png"><img class="alignnone wp-image-154" src="/assets/images/client-ovpn.png" alt="client-ovpn" width="650" height="411"></a><em>Üstte diyor ki, sertifika 3650 gün (10 yıl) boyunca geçerlidir... Bunları geçelim</em>, altta bize lazım olan şey yazıyor:
 <strong>Your client config is available at ~/client.ovpn</strong>
 <em>Client config'iniz&nbsp;~/client.ovpn'de hazır.</em><strong> Şimdi bu dosyayı kendi bilgisayarınıza indirmeniz gerek ki VPN bağlantısı yapabilesiniz.</strong> İndirdikten sonra ister ios, ister android, ister windows bilgisayarınızda kullanabileceksiniz.
 <strong>Bu dosyayı ubuntu sunucumdan kendi bilgisayarıma indirebilmek için&nbsp;Windows PowerShell kullanacağım. Dosyayı "karşıdan yüklemeniz" gerekmiyorsa yani dosya başka bir sunucuda değilse bu adımları geçebilirsiniz.</strong></li>
@@ -77,7 +77,7 @@ Burada kullaniciadi yerine sunucuza bağlanırken kullandığınız kullanıcı 
 <ol>
  	<li><a href="https://openvpn.net/index.php/open-source/downloads.html" target="_blank" rel="noopener noreferrer">OpenVPN client'ini indirin</a>.</li>
  	<li>client.ovpn dosyanızı "C:\Program Files\OpenVPN\config" buraya atın.</li>
- 	<li>OpenVPN client'ini açın. Sonrası resimde.<a href="/blog/assets/images/openvpn-gui1.png"><img class="alignnone wp-image-169 size-full" src="/blog/assets/images/openvpn-gui1.png" alt="" width="554" height="287"></a></li>
+ 	<li>OpenVPN client'ini açın. Sonrası resimde.<a href="/assets/images/openvpn-gui1.png"><img class="alignnone wp-image-169 size-full" src="/assets/images/openvpn-gui1.png" alt="" width="554" height="287"></a></li>
  	<li>Bu kadar. VPN'e bağlı olduğunuza emin olmak için <a href="https://www.iplocation.net/find-ip-address">buradan</a> IP adresinizi ve IP adresinin lokasyonuna bakabilirsiniz.</li>
  	<li>Bundan sonra bir hata alırsanız, openvpn simgesine sağ tıklayıp resimdeki "Günlüğe Bak"a tıklayın ve çıkan metin belgesindeki son satırları Google'da aratın. Ben de çok hatayla karşılaştım, neyse ki Google'da araştırarak çözüme ulaştım.
 Bağlantı sorunu yaşıyorsanız "1194" portunu açmamış olabilirsiniz (azure, google cloud vs. için geçerli bu). Sunucunun sağlayıcısından&nbsp;destek alabilirsiniz.</li>
