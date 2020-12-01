@@ -43,12 +43,8 @@ Bundan sonra 1-2 dakika kadar bir işlem yapabilir. Ondan sonra&nbsp;<strong>(da
 
 3'ü seçip kaldırmıştık, şimdi tekrar yüklemek için aynı komutu yine gireceğiz:
 
- 	<li>
 <pre><code class="shell plain">wget git.io/vpn --no-check-certificate -O openvpn-install.sh; bash openvpn-install.sh</code></pre>
-</li>
-</ul>
-</li>
-</ul>
+
 <strong>
 "IP Address:"</strong> karşısındakini silip VPS'nizin IP adresini yazın. Benimki&nbsp;13.81.167.131 gibi bir adres.
 <strong>"Which protocol do you want for OpenVPN connections?"</strong> OpenVPN için hangi protokolü kullanmak istediğinizi soruyor. UDP olsun: 1 ve enter.
