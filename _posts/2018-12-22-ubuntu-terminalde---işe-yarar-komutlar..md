@@ -37,8 +37,10 @@ dosya kopyalama, bir klasöre gitme, dosya silme gibi ufak tefek şeyler. sıras
 yaptıklarımızı tekrar edelim: indirdiğiniz dosyayı <code><span class="lit">nano example.txt</span></code> ile açıp düzenleyebilirsiniz, ve <code><span class="lit">mv example.txt example2.txt</span></code> ile ismini example2.txt olarak değiştirebilirsiniz, <code><span class="lit">rm example2.txt</span></code> ile silebilirsiniz.
 <h2><span style="color: #008000;">orta (2/3)</span></h2>
 - her seferinde sudo yazmaktan bıktım. ubuntu'ya patronun kim olduğunu göstermek istiyorum, ne yapmalıyım?
-<code><span class="lit">sudo -s</span></code>- geçmişte yazdığım komutları görmek istiyorum.
-<code><span class="lit">cd ~</span></code><code><span class="lit">nano .bash_history</span></code>- hangi uygulamanın ne kadar ram, cpu kullandığını nasıl görebilirim? windows'taki görev yöneticine benzer bir şey var mı?
+<code><span class="lit">sudo -s</span></code>
+- geçmişte yazdığım komutları görmek istiyorum.
+<code><span class="lit">cd ~</span></code><code><span class="lit">nano .bash_history</span></code>
+- hangi uygulamanın ne kadar ram, cpu kullandığını nasıl görebilirim? windows'taki görev yöneticine benzer bir şey var mı?
 <em>var. htop kurun:&nbsp;</em><code><span class="lit">apt-get install htop</span></code>
 <em>kullanın:</em> <code><span class="lit">htop</span></code>
 <em>kapatın</em>: F10<em> (ya da ctrl+c)</em>
@@ -55,5 +57,6 @@ komutların arasına <code><span class="lit">&amp;&amp;</span></code>&nbsp;koyar
 - arkaplandaki bu uygulamayı durdurmak, terminate etmek, çalışmasını sonlandırmak istiyorum.
 <em>öncelikle arkaplanda çalışan bu uygulamanın PID değerini öğrenmemiz gerekiyor. </em><code><span class="lit">htop</span></code>&nbsp;<em>ile öğrenilebilir.</em>
 <em>ardından:</em> <code><span class="lit">kill [PID]</span></code>&nbsp;<em>(örneğin:&nbsp;&nbsp;</em><code><span class="lit">kill 14508</span></code><em>)
-</em>- tüm python işlemlerinin çalışmasını sonlandırmak istiyorum.
-<code><span class="lit"><span class="pln">pkill </span><span class="pun">-</span><span class="lit">9&nbsp;</span><span class="pln">python</span></code>
+</em>
+- tüm python işlemlerinin çalışmasını sonlandırmak istiyorum.
+<code><span class="lit">pkill -9 python</span></code>
