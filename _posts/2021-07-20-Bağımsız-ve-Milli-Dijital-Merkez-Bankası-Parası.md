@@ -8,6 +8,7 @@ Mevcut olan kısmi rezerv bankacılık sisteminden Bağımsız ve Milli Para Sis
 <br>Bağımsız ve Milli Para Sistemi ile bankacılık sistemindeki "banka parası" statüsündeki mevduatlar Dijital Merkez Bankası Parası'na çevrilir ve buna ek olarak Merkez Bankası Parası, bir ticari banka müşterisi olmayı gerektirmeden, kripto paralar ile kullanıma sunulur.
 
 ### İçindekiler
+```
 1. Bir kripto para: Nano
 1.1 Merkezsiz ve dağıtık Nano ağı
 1.2 Nano'da ödeme sistemleri
@@ -31,3 +32,4 @@ Mevcut olan kısmi rezerv bankacılık sisteminden Bağımsız ve Milli Para Sis
 4.6.2 Merkezsizlik
 5. Sonuçlar
 6. Yararlanılan kaynaklar
+```
