@@ -9,6 +9,7 @@ Bankada bir hesap açıp birikiminizi burada saklayabilirsiniz. Banka müşteril
 **Bankalar kredi verdiklerinde yeni para oluştururlar**. Bankanın verdiği kredinin kaynağı, başka bir müşterinin mevduatı ya da başka bir hesap değildir. Bir banka birine kredi verdiğinde kaydi banka parası oluşur. Bu konuyla ilgili Prof. Richard A. Werner'ın deneysel bir çalışma yaptığı makaleyi okuyabilirsiniz: "[Bankalar Tek Başına Yoktan Para Yaratabilir mi? - Teoriler ve Ampirik Kanıtlar](https://www.researchgate.net/publication/265909749_Can_Banks_Individually_Create_Money_Out_of_Nothing_-_The_Theories_and_the_Empirical_Evidence)". Elbette bankalar sınırsızca kredi veremezler çünkü müşterilerin verilen krediyi geri ödeyebilecek olması önemlidir ve bankalar, müşterilerinin kredi alarak elde ettiği yeni oluşturulmuş olan kaydi parayı çekebilmelerine imkân sağlayacak kadar merkez bankası parası tutmalıdırlar, ayrıca [zorunlu karşılık](https://tr.wikipedia.org/wiki/Zorunlu_karşılık) gibi regülasyonlara tabi olabilirler.
 
 Örneğin bir banka 100 TL kredi verdiğinde, banka bilançosunda bu hem varlıklar (yani aktif) kısmında, hem de yükümlülükler (yani pasif) kısmında yer alır.
+
 |Varlıklar (Aktif)|Yükümlülükler (Pasif)|
 |-|-|
 |+100 TL'lik kredi|+100 TL'lik müşteriye borç|
