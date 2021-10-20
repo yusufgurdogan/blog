@@ -10,9 +10,9 @@ Bankada bir hesap açıp birikiminizi burada saklayabilirsiniz. Banka müşteril
 
 Örneğin bir banka 100 TL kredi verdiğinde, banka bilançosunda bu hem varlıklar (yani aktif) kısmında, hem de yükümlülükler (yani pasif) kısmında yer alır.
 
-|  Varlıklar  |  Yükümlülükler  |
-|-|-|
-|  +100 TL'lik kredi  |  +100 TL'lik müşteriye borç  |
+| Varlıklar         | Yükümlülükler              |
+|-------------------|----------------------------|
+| +100 TL'lik kredi | +100 TL'lik müşteriye borç |
 
 Bu garip, çünkü bankanın müşterisi bankadan 100 TL borç aldığını düşünüyor ama bankanın bilançosunda banka (verilen kredi miktarı müşterinin banka hesabında olduğu için) müşterisine 100 TL borçlu görünüyor. Normalde birine borç para verdiğinizde paranın sahibi artık borç verdiğiniz kişi olur, ama bu sistem öyle çalışmıyor. Bankalar tarafından kredi verilerek oluşturulan paralar, bankacılık sisteminde kaydi banka parası olarak duruyor. Bankadaki para nakit paraya çevrilebilir olduğu için kaydi para ile nakit para aynı gibi algılanabilir fakat aynı değildir, bankaların müşterileri paralarını nakit olarak çekmek için [bankalara koşarsa](https://tr.wikipedia.org/wiki/Banka_yığılması), bir finansal kriz meydana gelebilir.
 
@@ -169,18 +169,18 @@ Ulus olarak ekonomik bağımsızlık kazanmak için yerli ödeme sistemlerimizi 
 - Sistemin teşviklerini paranın gerçek ekonomiye gireceği şekilde ayarlamalıyız ki para doğru yere aksın, çalışanlar kazansın.
 
 # Kaynaklar
-[1] https://fedguy.com/rrp-at-the-zlb/
+[1] [https://fedguy.com/rrp-at-the-zlb/](https://fedguy.com/rrp-at-the-zlb/)
 
-[2] McLeay,M., Radia, A. and Thomas, R. (2014). Money creation in the modern economy, Bank of England first Quarterly Bulletin, 2014. https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy, sayfa 16-17.
+[2] McLeay,M., Radia, A. and Thomas, R. (2014). Money creation in the modern economy, Bank of England first Quarterly Bulletin, 2014. [https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy), sayfa 16-17.
 
 [3] Huber, J. (2017). 6.9 Debt-Free Versus Interest-Bearing Sovereign Money. In _Sovereign money: Beyond reserve banking_. essay, Palgrave Macmillan, sayfa 151 ve 167.
 
-[4] Werner, R. A. (2016). A lost century in economics: Three theories of banking and the conclusive evidence. International Review of Financial Analysis, 46, 361–379. https://doi.org/10.1016/j.irfa.2015.08.014
+[4] Werner, R. A. (2016). A lost century in economics: Three theories of banking and the conclusive evidence. International Review of Financial Analysis, 46, 361–379. [https://doi.org/10.1016/j.irfa.2015.08.014](https://doi.org/10.1016/j.irfa.2015.08.014)
 
 [5] Werner, R. A. (2016). _Princes of the Yen_. United Kingdom: Quantum Publishers, sayfa xiv.
 
-[6] https://fedguy.com/zombie-concepts-velocity-of-money/
+[6] [https://fedguy.com/zombie-concepts-velocity-of-money/](https://fedguy.com/zombie-concepts-velocity-of-money/)
 
-[7] https://www.postkeynesian.net/downloads/Werner/RW301012PPT.pdf, 65. slayt.
+[7] [https://www.postkeynesian.net/downloads/Werner/RW301012PPT.pdf](https://www.postkeynesian.net/downloads/Werner/RW301012PPT.pdf), 65. slayt.
 
-[8] https://professorwerner.org/shifting-from-central-planning-to-a-decentralised-economy/
+[8] [https://professorwerner.org/shifting-from-central-planning-to-a-decentralised-economy/](https://professorwerner.org/shifting-from-central-planning-to-a-decentralised-economy/)
