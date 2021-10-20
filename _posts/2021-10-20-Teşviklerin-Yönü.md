@@ -10,9 +10,9 @@ Bankada bir hesap açıp birikiminizi burada saklayabilirsiniz. Banka müşteril
 
 Örneğin bir banka 100 TL kredi verdiğinde, banka bilançosunda bu hem varlıklar (yani aktif) kısmında, hem de yükümlülükler (yani pasif) kısmında yer alır.
 
-|Varlıklar (Aktif)|Yükümlülükler (Pasif)|
+|  Varlıklar  |  Yükümlülükler  |
 |-|-|
-|+100 TL'lik kredi|+100 TL'lik müşteriye borç|
+|  +100 TL'lik kredi  |  +100 TL'lik müşteriye borç  |
 
 Bu garip, çünkü bankanın müşterisi bankadan 100 TL borç aldığını düşünüyor ama bankanın bilançosunda banka (verilen kredi miktarı müşterinin banka hesabında olduğu için) müşterisine 100 TL borçlu görünüyor. Normalde birine borç para verdiğinizde paranın sahibi artık borç verdiğiniz kişi olur, ama bu sistem öyle çalışmıyor. Bankalar tarafından kredi verilerek oluşturulan paralar, bankacılık sisteminde kaydi banka parası olarak duruyor. Bankadaki para nakit paraya çevrilebilir olduğu için kaydi para ile nakit para aynı gibi algılanabilir fakat aynı değildir, bankaların müşterileri paralarını nakit olarak çekmek için [bankalara koşarsa](https://tr.wikipedia.org/wiki/Banka_yığılması), bir finansal kriz meydana gelebilir.
 
@@ -57,12 +57,13 @@ Bir tarafta iş yapmak için paraya ihtiyacı olan, diğer tarafta ise parası o
 Bankalar istediği alanda kredi verebiliyor. İster birinin ev ya da araba alması için kredi verir, isterse kredi kartı limiti tanımlar ve günlük alışverişler için kredi verir. Örneğin bir kredi kartıyla harcama yaptığınızda, banka tarafından yeni oluşturulmuş bir parayı harcamış olursunuz ve kredi kartı borcunuzu ödediğinizde, oluşturulmuş olan kaydi para yok olur [2]. Bankalar halkın faydasını değil kendi kârını düşünüyor, çünkü banka ticari bir işletmedir, bu doğal. Bankanın kendi sermayesi var ve istediğine kredi verebilir diye düşünebiliriz fakat banka kredi verdiğinde yeni para oluşturuyor. Bankalar kredi vererek satın alma gücünü tabiri caizse yoktan var ediyor, paranın oluşturulmasını ve paranın akış yönünü büyük ölçüde onlar belirliyor.
 
 Bir ekonomi, sermayenin tahsisi sosyal faydayı sağlayacak şekilde yapılandırıldıysa güçlenebilir. Peki, daha iyi bir sistem nasıl olmalı? İki görüş var:
-1. **"Bankaların kredi vererek para yaratmasını durduralım ve parayı üretebilme yetkisi sadece merkez bankasının elinde olsun".**
+
+1- **"Bankaların kredi vererek para yaratmasını durduralım ve parayı üretebilme yetkisi sadece merkez bankasının elinde olsun".**
 Bu fikir, "[Positive Money](https://positivemoney.org/)" hareketinden geliyor. Bir diğer görüşleri ise, paranın borç risklerini taşımaması gerektiği. Bu bağlamda Joseph Huber şöyle yazmış [3]:
 
 > Para ve kredinin ayrılması, bir milletin parasının artık bankacılık ve finans sektörünün belirli çıkarlarına rehin kalmamasını sağlayacaktır. Devlet güçlerinin merkez bankası ile parlamento/yönetim arasında ayrılması, milli paranın o günün mali ve bütçesel çıkarlarına kurban gitmesini önleyecektir.
 
-2. **"Bankaların kredi vererek para yaratmasını durdurmayalım ama denetleyelim, öyle ki, tüketime ve finansal işlemlere değil üretime yönelik krediler versinler".** Bu fikir Prof. Richard A. Werner'dan geliyor, bir makalesinde şöyle yazmış [4]:
+2- **"Bankaların kredi vererek para yaratmasını durdurmayalım ama denetleyelim, öyle ki, tüketime ve finansal işlemlere değil üretime yönelik krediler versinler".** Bu fikir Prof. Richard A. Werner'dan geliyor, bir makalesinde şöyle yazmış [4]:
 
 > Birçok merkez bankası, bankalara banka kredisinin miktarı ve tahsisi ile ilgili düzenlemeler getirerek, bankacılık krizlerini birkaç on yıl boyunca başarıyla önlemiştir. "Kredi rehberliği" veya "pencere rehberliği" olarak bilinen bu tür politikalar, Japonya, Kore, Tayvan ve Çin gibi başarılı Doğu Asya ekonomilerindeki yüksek büyümenin de merkezinde yer almıştır (Werner, 2002, 2003, 2005). **Bu tür bir rehberlik kullanılarak, GSYİH (gayri safi yurtiçi hasıla) dışı işlemler (yani finansal varlıklar) için banka kredisinin verilmesi önlenebilir, böylece varlık balonlarından ve gelecek bankacılık krizlerinden kaçınılabilir.** Bunun yerine banka kredisi üretken kullanıma yönlendirildiği zaman, Kredi Miktarı Teorisi'nin (Quantity Theory of Credit, Werner, 1997, 2005) öne sürdüğü gibi, yüksek, istikrarlı ve enflasyonist olmayan ekonomik büyüme sağlanabilir. Varlık balonları ve bankacılık krizlerinin önlenerek yüksek ve istikrarlı büyümenin sağlandığı alternatif bir yaklaşım Almanya'da gösterilmiştir, bunu bankacılık sektörünün –büyük ölçüde, çok sayıda kâr amacı gütmeyen (not-for-profit) küçük bankalardan oluşan– yapısı sağlamıştır.
 
