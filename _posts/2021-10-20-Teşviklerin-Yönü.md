@@ -12,8 +12,7 @@ Bankada bir hesap açıp birikiminizi burada saklayabilirsiniz. Banka müşteril
 
 | Varlıklar         | Yükümlülükler              |
 |-------------------|----------------------------|
-| +100 TL'lik kredi | +100 TL'lik müşteriye borç |{:.mbtablestyle}
-
+| +100 TL'lik kredi | +100 TL'lik müşteriye borç |
 
 Bu garip, çünkü bankanın müşterisi bankadan 100 TL borç aldığını düşünüyor ama bankanın bilançosunda banka (verilen kredi miktarı müşterinin banka hesabında olduğu için) müşterisine 100 TL borçlu görünüyor. Normalde birine borç para verdiğinizde paranın sahibi artık borç verdiğiniz kişi olur, ama bu sistem öyle çalışmıyor. Bankalar tarafından kredi verilerek oluşturulan paralar, bankacılık sisteminde kaydi banka parası olarak duruyor. Bankadaki para nakit paraya çevrilebilir olduğu için kaydi para ile nakit para aynı gibi algılanabilir fakat aynı değildir, bankaların müşterileri paralarını nakit olarak çekmek için [bankalara koşarsa](https://tr.wikipedia.org/wiki/Banka_yığılması), bir finansal kriz meydana gelebilir.
 
