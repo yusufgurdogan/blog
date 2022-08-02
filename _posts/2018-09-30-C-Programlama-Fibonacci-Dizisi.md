@@ -1,3 +1,10 @@
+---
+layout: post
+title: "C Programlama Fibonacci Dizisi"
+author: "Yusuf Gürdoğan"
+tags: Fibonacci
+---
+
 <!-- wp:paragraph -->
 <p>Fibonacci dizisini yazdırmanın birçok yolu var. En son örnekte en basit hâlini yazdım.</p>
 <!-- /wp:paragraph -->

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Teşviklerin Yönü: Para Sistemi Nasıl Çalışıyor?"
+author: "Yusuf Gürdoğan"
+tags: Ekonomi, Para, Bankacılık, Kredi
+---
 
 # Teşviklerin yönü
 Bu yazıda, mevcut para sisteminde paranın oluşumuna ve oluşturulan paranın akış yönünün mevcut teşvikler ile nasıl şekillendiğine bakacağız ve daha iyi bir para ve teşvik sistemini kurgulamaya çalışacağız. Başlayalım.

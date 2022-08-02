@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Ubuntu Terminalde İşe Yarayan Komutlar"
+author: "Yusuf Gürdoğan"
+tags: Ubuntu
+---
+
 <h2><span style="color: #33cccc;">başlangıç (1/3)</span></h2>
 dosya kopyalama, bir klasöre gitme, dosya silme gibi ufak tefek şeyler. sırasıyla yapabilirsiniz.
 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Python’da Değişken Tiplerini Öğrenmenin Yolu"
+author: "Yusuf Gürdoğan"
+tags: Python
+---
+
 <p>&gt;&gt;&gt; x = 12345</p>
 
 <p>&gt;&gt;&gt; type(x)</p>

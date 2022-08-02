@@ -1,3 +1,10 @@
+---
+layout: post
+title: "NGINX İle Web Sunucusu Kurulumu"
+author: "Yusuf Gürdoğan"
+tags: NGINX
+---
+
 <!-- wp:paragraph -->
 <p>Bu yazıda NGINX nedir, ne işe yarar, NGINX ile nasıl web sunucusu kurulur gibi sorular cevap bulacak.</p>
 <!-- /wp:paragraph -->

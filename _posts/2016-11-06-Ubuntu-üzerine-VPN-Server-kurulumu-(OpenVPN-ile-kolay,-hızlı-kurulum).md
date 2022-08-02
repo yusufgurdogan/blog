@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Ubuntu Üzerine VPN Server Kurulumu (OpenVPN ile Kolay, Hızlı Kurulum)"
+author: "Yusuf Gürdoğan"
+tags: OpenVPN, Ubuntu
+---
+
 Ubuntu üzerine OpenVPN server kuracağız ve çok basit olacak.
 
 Digitalocean anlatımlarında&nbsp;<a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-14-04" target="_blank" rel="noopener noreferrer">(Ubuntu 14.04 için OpenVPN kurulumu)</a> <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04" target="_blank" rel="noopener noreferrer">(Ubuntu 16.04 için OpenVPN kurulumu)</a>&nbsp;her şeyi adım adım anlatıyor. Biz uzun anlatımda yapılan birçok şeyi kendiliğinden yapacak bir sh dosyası kullanacağız. Haydi başlayalım!
