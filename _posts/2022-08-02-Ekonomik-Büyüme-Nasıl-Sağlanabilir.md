@@ -140,4 +140,4 @@ Neden serbest bir ekonomi yerine böyle bir strateji izlendi?
 
 [13] Prof. K. Ohno. (n.d.). _10. Postwar Recovery 1945-49_. 政策研究大学院大学(grips). [https://www.grips.ac.jp/teacher/oono/hp/lecture_J/lec10.htm](https://www.grips.ac.jp/teacher/oono/hp/lecture_J/lec10.htm)
 
-[14] _昭和21年度第4四半期基礎物資需給計画策定並に実施要領_. 昭和21年度第4四半期基礎物資需給計画策定並に実施要領 | 政治・法律・行政 | 国立国会図書館. (20 Aralık 2012). [https://rnavi.ndl.go.jp/politics/entry/bib00767.php](https://rnavi.ndl.go.jp/politics/entry/bib00767.php)
+[14] _昭和21年度第4四半期基礎物資需給計画策定並に実施要領_. 昭和21年度第4四半期基礎物資需給計画策定並に実施要領 - 政治・法律・行政 - 国立国会図書館. (20 Aralık 2012). [https://rnavi.ndl.go.jp/politics/entry/bib00767.php](https://rnavi.ndl.go.jp/politics/entry/bib00767.php)
