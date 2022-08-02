@@ -114,17 +114,30 @@ Neden serbest bir ekonomi yerine böyle bir strateji izlendi?
 - Para sistemini, ekonomik aktivitenin ve üretimin önceliklendirildiği ve krizlere dayanıklı olacak şekilde yeniden tasarlayabiliriz. Böylece, kaynakların adil olarak dağıtıldığı ve zenginle fakir arasında uçurum olmayan bir ekonomiyi elde edebiliriz.
 
 # Kaynaklar
-[1] _How is money created?_ Bank of England. (1 Ekim 2019). https://www.bankofengland.co.uk/knowledgebank/how-is-money-created
+[1] _How is money created?_ Bank of England. (1 Ekim 2019). [https://www.bankofengland.co.uk/knowledgebank/how-is-money-created](https://www.bankofengland.co.uk/knowledgebank/how-is-money-created)
+
 [2] McLeay,M., Radia, A. and Thomas, R. (2014). Money creation in the modern economy, Bank of England first Quarterly Bulletin, 2014.  [https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy), sayfa 16-17.
+
 [3] Michie, R., & Mollan, S. (1 Aralık 2011). _British and American banking in historical perspective: beware of false precedents_. History & Policy. [https://www.historyandpolicy.org/policy-papers/papers/british-and-american-banking-in-historical-perspective-beware-of-false-prec](https://www.historyandpolicy.org/policy-papers/papers/british-and-american-banking-in-historical-perspective-beware-of-false-prec)
+
 [4] Peirce, H., & Miller, S. M. (17 Mart 2015). _Small banks by the numbers, 2000–2014_. Mercatus Center. [https://www.mercatus.org/publications/financial-markets/small-banks-numbers-2000%E2%80%932014](https://www.mercatus.org/publications/financial-markets/small-banks-numbers-2000%E2%80%932014)
+
 [5] Hamilton ETFs. (25 Kasım 2015). _U.S. Banks: Revisiting “100 Bank Mergers”, 3 Years Later_. Hamilton ETFs. [https://hamiltonetfs.com/revisiting-100-bank-mergers-3-years-later/](https://hamiltonetfs.com/revisiting-100-bank-mergers-3-years-later/)
+
 [6] Young, G. (2 Eylül 2020). _Researchers Warn Community Banks Are 'Dying Out' Just When Needed Most_. TTU. [https://today.ttu.edu/posts/2020/09/Stories/researchers-warn-community-banks-dying-out-when-needed-most](https://today.ttu.edu/posts/2020/09/Stories/researchers-warn-community-banks-dying-out-when-needed-most)
+
 [7] Ilsr. (14 Mayıs 2019). _Number of new banks created by year, 1993 to 2018_. Institute for Local Self-Reliance. [https://ilsr.org/number-of-new-banks-created-by-year-1993-to-2013/](https://ilsr.org/number-of-new-banks-created-by-year-1993-to-2013/)
+
 [8] Hakenes, H., Hasan, I., Molyneux, P., & Xie, R. (2014). Small banks and local economic development. _SSRN Electronic Journal_. [https://doi.org/10.2139/ssrn.2390696](https://doi.org/10.2139/ssrn.2390696)
+
 [9] Werner, R. A. (2016). _Princes of the Yen_. United Kingdom: Quantum Publishers, sayfa 123-124.
+
 [10] Akçiğit, P. D. U. (1 Mayıs 2021). _Kredi Garantilerinin Firma Düzeyindeki Etkisi_. ART Notları. [https://www.artnotlari.com/blog/kredi-garantilerinin-firma-duzeyindeki-etkisi](https://www.artnotlari.com/blog/kredi-garantilerinin-firma-duzeyindeki-etkisi)
+
 [11] Tetsuji, O. (9 Şubat 2015). _Lessons from the Japanese Miracle: Building the Foundations for a New Growth Paradigm_. nippon.com. [https://www.nippon.com/en/in-depth/a04003/](https://www.nippon.com/en/in-depth/a04003/)
+
 [12] Calder, K. E. (1993). _Strategic capitalism: Private business and public purpose in Japanese Industrial Finance_. Princeton University Press.
+
 [13] Prof. K. Ohno. (n.d.). _10. Postwar Recovery 1945-49_. 政策研究大学院大学(grips). [https://www.grips.ac.jp/teacher/oono/hp/lecture_J/lec10.htm](https://www.grips.ac.jp/teacher/oono/hp/lecture_J/lec10.htm)
+
 [14] _昭和21年度第4四半期基礎物資需給計画策定並に実施要領_. 昭和21年度第4四半期基礎物資需給計画策定並に実施要領 | 政治・法律・行政 | 国立国会図書館. (20 Aralık 2012). [https://rnavi.ndl.go.jp/politics/entry/bib00767.php](https://rnavi.ndl.go.jp/politics/entry/bib00767.php)
