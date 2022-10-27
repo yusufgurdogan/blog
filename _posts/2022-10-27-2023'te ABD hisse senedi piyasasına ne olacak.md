@@ -31,7 +31,7 @@ Devam edelim. Tüketicilerin ekonomi hakkında hissettiklerine bakılırsa durum
 ![University of Michigan: Consumer Sentiment](https://fred.stlouisfed.org/graph/fredgraph.png?g=Vhgo)
 
 NAHB housing endeksine bakalım. Bu endeks önemli çünkü buradaki bir hareketlenme, [ekonominin geri kalanında olacak olaylarla ilgili ipuçlarını önceden verebilir](https://twitter.com/MichaelKantro/status/1510671155027451909). Bu endeks, ev inşa edenlerle ilgili aylık bir ankete dayanıyor. Katılımcılardan müstakil evlerin mevcut satışlarını ve önümüzdeki altı ay için satış beklentileri ve muhtemel alıcı trafiğini derecelendirmeleri isteniyor. Sonuç bu [2]:
-<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=unitedstanahhoumarin&v=202210181419V20220312&d1=19981120&h=466&w=1168' height='466' width='1168'  frameborder='0' scrolling='no'></iframe><br />
+<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=unitedstanahhoumarin&v=202210181419V20220312&d1=19981120' height='466' width='1168'  frameborder='0' scrolling='no'></iframe><br />
 
 ABD'de aylık yeni ev arzı verisine bakalım. Bu veri, satışta olan yeni evlerin satılan yeni evlere olan oranını gösteriyor. Dikkat edin, ne zaman hızlıca 10 seviyesini gördüysek, sonrasında hep griye boyalı (resesyonlu) sert bir düşüş bunu takip etmiş. Resesyonlarla sert düşüşlerin olduğu zamanlar genellikle örtüşüyor. 2020'den beri yaşanan hızlı yükseliş, muhtemelen hızlı bir düşüşle sona erecek, ve o alan griye boyanabilir:
 ![Monthly Supply of New Houses in the United States](https://fred.stlouisfed.org/graph/fredgraph.png?g=Vhj4)
@@ -64,7 +64,10 @@ Son olarak bir teknik analiz paylaşmak istiyorum. [TradingView'da paylaştığ�
 Arzı azalan, talep gören ve krizlerde sağlam liman olarak bilinen doların arzı 2020'de her ne kadar aşırı artmış da olsa, şu an için dolar arzının azaldığını ve dolara talebin oldukça yüksek olduğunu söyleyebiliriz. Bu dönemde dolar tutup hisse senedi piyasasında (ve buna bağlı hareket eden diğer piyasalarda) alım yapmak için fırsat kollamak mantıklı görünüyor.
 
 # Kaynaklar
-[1] [https://www.nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html](https://www.nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html)
-[2] [https://tradingeconomics.com/united-states/nahb-housing-market-index](https://tradingeconomics.com/united-states/nahb-housing-market-index)
+[1] [nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html](https://www.nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html)
+
+[2] [tradingeconomics.com/united-states/nahb-housing-market-index](https://tradingeconomics.com/united-states/nahb-housing-market-index)
+
 [3] Manukyan, Ş. (2022).  _Global Piyasalar - Dünü Bugünü Yarını_. Kronik Kitap, sayfa 189–190.
-Verilerin kaynağı: https://fred.stlouisfed.org/
+
+Verilerin kaynağı: [fred.stlouisfed.org](https://fred.stlouisfed.org/)
