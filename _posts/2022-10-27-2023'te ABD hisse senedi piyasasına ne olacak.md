@@ -38,6 +38,7 @@ ABD'de aylık yeni ev arzı verisine bakalım. Bu veri, satışta olan yeni evle
 
 # 2. Neden ABD hisse senedi piyasası daha da düşebilir?
 Burada Şant Manukyan hocanın "Global Piyasalar - Dünü Bugünü Yarını" kitabında da değinmiş olduğu iki önemli meseleyi paylaşmak isterim.
+
 **1- Piyasalar, Fed (ve Fed'in elindeki net likiditeyi) takip ediyor.**
 2020 Temmuz sonrasında piyasalar Fed'in net likiditesini takip etmeye başladı. [Net likidite nedir, burada açıklanmış.](https://twitter.com/maxjanderson/status/1546472693234470912) Net likidite ile S&P 500 ilişkisini düzenli olarak Twitter'da paylaşan [@maxjanderson](https://twitter.com/maxjanderson) sayfasını takip edebilirsiniz.
 ![S&P 500 and net liquidity of Fed](https://i.imgur.com/6a2nAGv.png)
