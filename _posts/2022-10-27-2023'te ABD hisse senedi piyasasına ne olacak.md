@@ -31,7 +31,7 @@ Devam edelim. Tüketicilerin ekonomi hakkında hissettiklerine bakılırsa durum
 ![University of Michigan: Consumer Sentiment](https://fred.stlouisfed.org/graph/fredgraph.png?g=Vhgo)
 
 NAHB housing endeksine bakalım. Bu endeks önemli çünkü buradaki bir hareketlenme, [ekonominin geri kalanında olacak olaylarla ilgili ipuçlarını önceden verebilir](https://twitter.com/MichaelKantro/status/1510671155027451909). Bu endeks, ev inşa edenlerle ilgili aylık bir ankete dayanıyor. Katılımcılardan müstakil evlerin mevcut satışlarını ve önümüzdeki altı ay için satış beklentileri ve muhtemel alıcı trafiğini derecelendirmeleri isteniyor. Sonuç bu [2]:
-<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=unitedstanahhoumarin&v=202210181419V20220312&d1=19981120' height='466' width='1168'  frameborder='0' scrolling='no'></iframe><br />
+<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=unitedstanahhoumarin&v=202210181419V20220312&d1=19981120' height='330' width='730'  frameborder='0' scrolling='no'></iframe><br />
 
 ABD'de aylık yeni ev arzı verisine bakalım. Bu veri, satışta olan yeni evlerin satılan yeni evlere olan oranını gösteriyor. Dikkat edin, ne zaman hızlıca 10 seviyesini gördüysek, sonrasında hep griye boyalı (resesyonlu) sert bir düşüş bunu takip etmiş. Resesyonlarla sert düşüşlerin olduğu zamanlar genellikle örtüşüyor. 2020'den beri yaşanan hızlı yükseliş, muhtemelen hızlı bir düşüşle sona erecek, ve o alan griye boyanabilir:
 ![Monthly Supply of New Houses in the United States](https://fred.stlouisfed.org/graph/fredgraph.png?g=Vhj4)
