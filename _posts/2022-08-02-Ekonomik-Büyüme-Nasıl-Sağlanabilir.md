@@ -41,7 +41,7 @@ Bu grafikte ise büyük bankaların sayıca arttığını ve küçük bankaları
 ![Küçük bankaların sayısı azalırken büyük bankaların sayısı artıyor](https://www.mercatus.org/sites/default/files/C1-Number-of-US-Banks-15yrs_0.jpg)
 
 1980 yılında imzalanan [Depository Institutions Deregulation and Monetary Control Act (DIDMCA)](https://en.wikipedia.org/wiki/Depository_Institutions_Deregulation_and_Monetary_Control_Act) yasası, topluluk bankalarının sayısının azalmasına yol açtı [5]:
-![ABD'deki ticari banka sayısının DIDMCA sonrası değişimi](https://192473-586187-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2015/11/2015-11-23-Number-of-US-Commercial-Banks.png)
+![ABD'deki ticari banka sayısının DIDMCA sonrası değişimi](https://i.imgur.com/vdzQnAv.png)
 
 2010 yılında imzalanan [Dodd-Frank Yasası](https://en.wikipedia.org/wiki/Dodd%E2%80%93Frank_Wall_Street_Reform_and_Consumer_Protection_Act) ise topluluk bankalarına vurulan bir başka darbe olmuş:
 
