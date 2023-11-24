@@ -69,16 +69,12 @@ Gerçek bir örnek üzerinden gitmek istiyorum. Şu anda ABD harici bir yerde ya
 Her seçenek için şunu düşüneceğiz: "Herkes bunu yaparsa, toplum ne hale gelir?"
 
 1. **Parayı bankada tutabilir.**
-
 Bankada (vadeli veya vadesiz) mevduat tutmak, bankanın kredi verme gücünü dolaylı yoldan arttıran bir finansal eylemdir. Toplumsal fayda, kredinin kime ve ne amaçla verildiğine bağlı değişir. Kredi, birinin yatırım amaçlı konut/döviz/altın/... alması için de kullanılabilir (toplumsal fayda yok), bir fabrikaya üretim amacıyla kredi olarak da verilebilir (fabrikanın bu krediyi kullanım çıktısına bağlı olarak toplumsal fayda olabilir).
 2. **Altın veya gümüş gibi bir emtia alabilir.**
-
 Herkesin parasıyla altın alıp kenara koyması ve fiyatının yükselmesini umduğu bir topluma uzaktan bakalım. Bu toplum ne üretir? Altınını  kendi çıkaran bir ülke bile olsa, ortada bir üretim yok. Bu yüzden toplumsal bir fayda da yoktur.
 3. **Bitcoin gibi bir kripto para birimi alabilir.**
-
 Bir kripto paraya yalnızca paranın değer saklama fonksiyonunu sağlayan bir araç olarak bakılırsa, altından bir farkı olmaz. Fakat bir teknoloji yatırımı olarak bakılırsa, o zaman hisse senedi kategorisine daha yakın bir yerde olabilir. Tartışmalı bir konu, ama şu ana kadar pek bir fayda görünmüyor.
 4. **Bankada USD tutabilir, veya USDT gibi bir stabilcoin alabilir, veya ABD hazine tahvili alabilir.**
-
 Bu konuyu biraz açmak istiyorum.
 - **ABD hazine tahvili alırsanız:** ABD uzun zamandır hep cari açık veren bir ülke (1980'lerden beri). 100 üretip 103.2 tüketen, aradaki fark için borçlanan bir ülke *("İkinci çeyrek açığı cari dolar cinsinden gayri safi yurt içi hasılanın yüzde 3,2'si oldu")* [5]:
 ![abd-cari-hesap](https://i.imgur.com/kchDo0N.png)
@@ -98,12 +94,12 @@ Daha basit ve net düşünürsek, ABD hükümeti büyük bir harcama yapacağı 
 - Finansal sistemlerin, özellikle de para birimlerinin, spekülatif saldırılara karşı dayanıklı bir şekilde geliştirilmesi esastır.
 - Toplumsal refah için paranın akacağı en iyi yön hisse senetleridir.
 
-[1] https://forexillustrated.com/trading-strategies-biggest-trades-soros/
+[1] [forexillustrated.com/trading-strategies-biggest-trades-soros/](https://forexillustrated.com/trading-strategies-biggest-trades-soros/)
 
-[2] https://www.hedgethink.com/what-made-george-soros-the-worlds-richest-hedge-fund-billionaire/
+[2] [hedgethink.com/what-made-george-soros-the-worlds-richest-hedge-fund-billionaire/](https://www.hedgethink.com/what-made-george-soros-the-worlds-richest-hedge-fund-billionaire/)
 
 [3] Soros, G. (2000). Market Values Versus Social Values. In Open society: Reforming global capitalism (sayfa 138). essay, PUBLICAFFAIRS.
 
-[4] https://www.jstor.org/stable/40721935
+[4] [jstor.org/stable/40721935](https://www.jstor.org/stable/40721935)
 
-[5] https://www.bea.gov/news/2023/us-international-transactions-2nd-quarter-2023
+[5] [bea.gov/news/2023/us-international-transactions-2nd-quarter-2023](https://www.bea.gov/news/2023/us-international-transactions-2nd-quarter-2023)
