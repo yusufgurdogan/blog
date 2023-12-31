@@ -63,6 +63,17 @@ Son olarak bir teknik analiz paylaşmak istiyorum. [TradingView'da paylaştığ�
 
 # 3. Fırsatlar
 Arzı azalan, talep gören ve krizlerde sağlam liman olarak bilinen doların arzı 2020'de her ne kadar aşırı artmış da olsa, şu an için dolar arzının azaldığını ve dolara talebin oldukça yüksek olduğunu söyleyebiliriz. Bu dönemde dolar tutup hisse senedi piyasasında (ve buna bağlı hareket eden diğer piyasalarda) alım yapmak için fırsat kollamak mantıklı görünüyor.
+***
+## 31 Aralık 2023 Güncellemesi:
+Tahminlerim başarısız oldu. NASDAQ biraz düştü, fakat sonrasında yeni bir tarihi rekor kırdı.
+
+Şu dersleri çıkartıyorum:
+1. Bazı veriler kriz olabileceğine işaret ediyordu, fakat başka verilere bakılırsa hiç de bir şey olacak gibi görünmüyordu. Bir görüşe inanınca, o görüşü destekleyen veri aramaya meyilli olunabiliyor (cherry picking). Takip edilen kişilerin görüşü de insanı etkiliyor.
+2. ABD ve parası çok uzun süredir bir numara. S&P, yıllardır artan bir endeks. Krizler çok nadir oluyor ve bunların ne zaman olacağını tahmin etmek çok zor. Krizlerdeki anlık büyük düşüşler, uzun vadede bakılırsa çok ufak ve önemsiz görünüyor. Bunlara rağmen, piyasanın çok ısındığı ve çok soğuduğu zamanlar olabiliyor ve mevcut akıntıya kapılmadan bu durumları fark etmek önemli.
+3. Piyasayla alakalı genel ve özgün bir görüşe sahip olmak, ve bu görüşün sağlam temellere dayanıyor olması çok faydalı. Örneğin, "X varlığı olması gereken fiyatından çok aşağıda, çünkü..."
+4. Piyasalar refleksif: örneğin bir varlığın fiyatının artması, başkalarının da o varlığı almasına sebep olabilir (ve tam tersi de geçerli). Ayrıca oldukça karmaşık: kazanmanın net bir formülü yok.
+5. Bu tahminim doğru da çıkabilirdi, fakat bu durum beni daha özgüvenli yapmamalıydı. Buna bağlı olarak, tahminimin yanlış olması da özgüvenimin eksilmesine sebep olmamalı. Dersimi alıp yoluma devam etmeliyim.
+***
 
 # Kaynaklar
 [1] [nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html](https://www.nytimes.com/interactive/2022/03/11/us/how-covid-stimulus-money-was-spent.html)
