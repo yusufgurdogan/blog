@@ -44,8 +44,10 @@ They say, "we will commoditize the petaflop and enable AI for everyone."
 [Video by Şant Manukyan](https://youtu.be/Cs3ZR8Q0VbE?si=WB8xwbRJYmxWfg_r&t=60), [view chart](https://fred.stlouisfed.org/graph/?g=GzNg).
 
 > Black line: American household wealth
+
 > Yellow line: American economic development
-> For many years, there was a parallel increase in household wealth alongside American economic growth. In 96-97, there was an acceleration in wealth faster than the economy, followed by the 2000 dotcom crisis. Then household wealth accelerated again, with an even bigger divergence and convergence than the pre-2000 separation. Now we're facing a tremendous divergence. The essence of the video isn't just that "these two will converge" - though they will - but rather how will they converge? **With AI and many related developments like space research, biotechnology etc., we might see the yellow line go up**, or, as the doomsayers at ZeroHedge would have it, the black line might crash downward.
+
+> For many years, there was a parallel increase in household wealth alongside American economic growth. In 96-97, there was an acceleration in wealth faster than the economy, followed by the 2000 dotcom crisis. Then household wealth accelerated again, with an even bigger divergence and convergence than the pre-2000 separation. Now we're facing a tremendous divergence. The essence of the video isn't just that "these two will converge" - though they will - but rather how will they converge? **With AI and many related developments like space research, biotechnology etc., we might see the yellow line go up**, or, as some at ZeroHedge put it, the black line might crash downward.
 
 We could be in a "number go up" situation. All numbers can possibly go higher: productivity, therefore output. Perhaps we will all get rich.
 
