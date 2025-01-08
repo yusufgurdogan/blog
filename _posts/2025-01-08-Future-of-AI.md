@@ -8,6 +8,7 @@ tags: AI
 Do I know the future? No. But it's good to make some predictions!
   
 **Unlimited entertainment online**
+
 Your favorite movie: but now with this actor, or with that scenario.
   
 The pixels you look at will be so much fun, and it's unlimited. And it will be so realistic.  
@@ -23,19 +24,22 @@ Making a video will be very easy; since AI knows your voice and speaking pattern
 Real life entertainment has limited supply. Digital entertainment has unlimited supply. How is the demand going to be shaped?
   
 **More realistic deepfakes & scams**
+
 What to trust? Currently, deepfakes can usually be separated from reality. Within a few years, it's likely that it will be impossible to separate. Then it could be very difficult to trust pixels. What is real?
 
 **A supercomputer in every home**
+
 Running an AI model that is smarter than us, locally, will be possible and affordable. This can provide intelligence to many robots in the house.
 
-Tinybox is "now shipping": [tinygrad.org/#tinybox](https://tinygrad.org/#tinybox)
+**Tinybox** is "now shipping": [tinygrad.org/#tinybox](https://tinygrad.org/#tinybox)
 
 They say, "we will commoditize the petaflop and enable AI for everyone."
 ![tinybox](https://i.imgur.com/6oYkt6K.jpeg)
-Project Digits "will be available in May" 2025: https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips
+[**Project Digits**](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips) "will be available in May" 2025:
 ![Project Digits](https://i.imgur.com/xzbU3OW.png)
   
-**AI agents will accelerate production exponentially.**  
+**AI agents will accelerate production exponentially.**
+
 ![Asset prices (such as stocks, housing, etc.) rising detached from the real economy](https://i.imgur.com/1RC1Blx.png)
 [Video by Şant Manukyan](https://youtu.be/Cs3ZR8Q0VbE?si=WB8xwbRJYmxWfg_r&t=60), [view chart](https://fred.stlouisfed.org/graph/?g=GzNg).
 
@@ -63,7 +67,8 @@ What AI can't do now can be done later. What can AI never do? Believe in God? Bu
 
 AI beats us in both speed and smarts already. [Cerebras](https://inference.cerebras.ai/) and [Groq](https://groq.com/) outperform human speed, while [Claude](https://claude.ai/) outperforms human intelligence in most areas. What makes us valuable as human beings?
 
-**The best models will always be closed source.**  
+**The best models will always be closed source.**
+
 I'm hoping that this won't be the case, but it's likely that it will be the case.  
   
 Let's hope it will be in the right hands, or, let's be the right hands and make the best model. The race is open, the game is definitely on, and anyone (with a few billion dollars!!!) can participate.
