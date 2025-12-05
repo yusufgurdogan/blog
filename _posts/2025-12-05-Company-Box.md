@@ -24,8 +24,7 @@ Everyone wants to win. Not "against" anyone, but "for" the goal.
 
 I think Pavel Durov achieved this with his [Telegram team](https://www.youtube.com/watch?v=jFLwwa1oxqA). The way he hires is through competitions, which is interesting. It is also interesting that he owns 100% of Telegram.
 
-> "If you try to manage this system manually, without automation, you will probably end up hiring tens of thousands of people. But if you rely on algoritms, and the team is forced to put together algorithms in order to manage it, then it becomes much more scalable, much more efficient, and interestingly, much more reliable as well.
-> - Pavel Durov
+> "If you try to manage this system manually, without automation, you will probably end up hiring tens of thousands of people. But if you rely on algoritms, and the team is forced to put together algorithms in order to manage it, then it becomes much more scalable, much more efficient, and interestingly, much more reliable as well. (Pavel Durov)
 
 # Company box
 This is an experimental thought.
