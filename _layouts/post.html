@@ -2,38 +2,47 @@
 layout: default
 ---
 
-<div class="post">
-  <div class="post-info">
-    <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
+<article class="post">
+  <header class="post-header">
+    <div class="post-info">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.tags and page.tags.size > 0 %}
+        <span>{{ page.tags | join: " · " }}</span>
+      {% endif %}
+      {% assign words = page.content | strip_html | number_of_words %}
+      <span>{{ words | divided_by: 200 | plus: 1 }} min read</span>
+    </div>
 
-    {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-line"></div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
   </div>
-
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-line"></div>
-
-  {{ content }}
-</div>
+</article>
 
 {% if page.comments %}
   {% include disqus_comments.html %}
 {% endif %}
 
-<div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <a href="#" class="top">Top</a>
-</div>
+{% if page.previous.url or page.next.url %}
+<nav class="post-nav">
+  <div>
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="prev">
+        <span class="post-nav-label">&larr; Older</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+    {% endif %}
+  </div>
+  <div>
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="next">
+        <span class="post-nav-label">Newer &rarr;</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

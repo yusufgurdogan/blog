@@ -1,86 +1,149 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
 }
 
-html,
-body {
-  color: $default-color;
-  margin: 0;
-  padding: 0;
+:root {
+  --font-sans: 'Literata', 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --font-heading: var(--font-sans);
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --base-size: 17px;
+  --base-size-lg: 18px;
+  --line-height: 1.65;
+  --heading-weight: 700;
 }
 
 html {
-  font-family: $serif-primary;
-  font-size: 14px;
+  background: $bg;
+  color: $ink;
+  font-family: $sans;
+  font-size: var(--base-size);
+  line-height: var(--line-height);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll;
 
   @media (min-width: 600px) {
-    font-size: 16px;
+    font-size: var(--base-size-lg);
   }
 }
 
 body {
-  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(60rem 30rem at 50% -10rem, rgba(229, 176, 76, .06), transparent 70%),
+    $bg;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $default-shade;
-  font-family: $sans-serif;
-  line-height: normal;
+main {
+  flex: 1;
+}
+
+::selection {
+  background: $selection;
+  color: $ink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $ink;
+  font-family: $heading;
+  font-weight: var(--heading-weight);
+  letter-spacing: -.015em;
+  line-height: 1.25;
+  margin: 2.2rem 0 .8rem;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
+h4, h5, h6 { font-size: 1rem; }
+
+p, ul, ol {
+  margin: 0 0 1.2rem;
+}
+
+li {
+  margin-bottom: .3rem;
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+  color: $ink;
+  text-decoration: underline;
+  text-decoration-color: rgba(229, 176, 76, .55);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+  @include transition(color .15s ease, text-decoration-color .15s ease);
+
+  &:hover,
+  &:focus-visible {
+    color: $accent;
+    text-decoration-color: $accent;
+  }
+}
+
+strong {
+  color: $ink;
+  font-weight: 600;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $border;
+  margin: 2.5rem 0;
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
-  color: $grey-1;
-  margin: .8rem 0;
-  padding: .5rem 1rem;
+  border-left: 2px solid $accent;
+  color: $ink-soft;
+  margin: 1.6rem 0;
+  padding: .2rem 0 .2rem 1.25rem;
 
   p:last-child {
     margin-bottom: 0;
   }
 
-  @media (min-width: 600px) {
-    padding: 0 5rem 0 1.25rem;
-  }
 }
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  border-radius: 6px;
+  margin: 1.6rem auto;
   max-width: 100%;
+  height: auto;
 }
 
 table {
-  border: 1px solid $grey-2;
   border-collapse: collapse;
-  font-size: 85%;
-  margin-bottom: 1rem;
+  font-size: .9rem;
+  margin: 0 0 1.5rem;
   width: 100%;
 }
 
-td,
-th {
-  border: 1px solid $grey-2;
-  padding: .25rem .5rem;
+td, th {
+  border-bottom: 1px solid $border;
+  padding: .5rem .6rem;
+  text-align: left;
   vertical-align: top;
 }
 
 th {
-  text-align: left;
+  @include label;
+  border-bottom-color: $border-strong;
 }
 
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: $grey-3;
+// Embedded tweets and iframes should never exceed the reading column.
+iframe,
+.twitter-tweet {
+  max-width: 100% !important;
+  margin: 1.6rem auto !important;
+}
+
+:focus-visible {
+  outline: 2px solid $accent;
+  outline-offset: 3px;
+  border-radius: 2px;
 }

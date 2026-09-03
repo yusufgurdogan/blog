@@ -1,39 +1,68 @@
+// Post index on the home page: grouped by year, one line per post.
 .catalogue {
-  &-item {
-    border-bottom: 1px solid $grey-2;
-    color: $default-color;
-    display: block;
-    padding: 2rem 0;
+  margin-bottom: 2rem;
+  padding-top: 1.25rem;
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line {
-      width: 5rem;
-    }
+  &-year {
+    display: grid;
+    gap: 0 1.5rem;
+    grid-template-columns: 5.5rem 1fr;
+    margin-bottom: 1.2rem;
 
-    &:last-child {
-      border: 0;
+    @media (max-width: 599px) {
+      grid-template-columns: 1fr;
     }
   }
 
-  &-time {
-    color: $default-tint;
-    font-family: $serif-secondary;
-    letter-spacing: .5px;
+  &-year-label {
+    color: $ink-muted;
+    font-family: $mono;
+    font-size: .8rem;
+    padding-top: .7rem;
+
+    @media (max-width: 599px) {
+      border-bottom: 1px solid $border;
+      margin-bottom: .2rem;
+      padding-bottom: .3rem;
+    }
+  }
+
+  &-item {
+    align-items: baseline;
+    border-bottom: 1px solid $border;
+    color: $ink;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: .65rem 0;
+    text-decoration: none;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: none;
+
+      .catalogue-title { color: $accent; }
+    }
   }
 
   &-title {
-    color: $default-shade;
-    display: block;
-    font-family: $sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: .5rem 0;
+    font-family: $heading;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 0;
+    @include transition(color .15s ease);
   }
 
-  &-line {
-    @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
-    display: block;
-    width: 2rem;
+  &-time {
+    color: $ink-muted;
+    flex-shrink: 0;
+    font-family: $mono;
+    font-size: .72rem;
+    letter-spacing: .04em;
   }
 }

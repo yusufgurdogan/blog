@@ -1,29 +1,66 @@
-// Colors
-$default-color: #555;
-$default-shade: #353535;
-$default-tint: #aaa;
-$grey-1: #979797;
-$grey-2: #e5e5e5;
-$grey-3: #f9f9f9;
-$white: #fff;
-$blue: #4a9ae1;
-$shadow-color: rgba(0, 0, 0, .2);
-$code-color: #bf616a;
+// ---------------------------------------------------------------------------
+// Palette: near-black ground, warm off-white ink, a single amber accent.
+// ---------------------------------------------------------------------------
+$bg:            #0c0c0e;
+$bg-raised:     #141417;
+$bg-code:       #111114;
+$border:        #232328;
+$border-strong: #34343b;
 
-// Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-$monospaced: Menlo, Monaco, monospace;
+$ink:           #e8e5de;
+$ink-soft:      #b9b5ac;
+$ink-muted:     #7d7a72;
 
+$accent:        #e5b04c;
+$accent-soft:   rgba(229, 176, 76, .16);
+$selection:     rgba(229, 176, 76, .28);
+
+$code-inline:   #f0c674;
+
+// Old Tale names, kept so nothing referring to them breaks.
+$default-color: $ink;
+$default-shade: $ink;
+$default-tint:  $ink-muted;
+$grey-1:        $ink-soft;
+$grey-2:        $border;
+$grey-3:        $bg-raised;
+$white:         $ink;
+$blue:          $accent;
+$shadow-color:  rgba(0, 0, 0, .6);
+$code-color:    $code-inline;
+
+// ---------------------------------------------------------------------------
+// Type
+// ---------------------------------------------------------------------------
+// Actual families live in CSS custom properties (see _base.scss) so they can
+// be swapped at runtime.
+$sans:    var(--font-sans);
+$heading: var(--font-heading);
+$mono:    var(--font-mono);
+
+$serif:           $sans; // body face; kept under the old name so partials need no edits
+$serif-primary:   $sans;
+$serif-secondary: $sans;
+$sans-serif:      $sans;
+$monospaced:      $mono;
+
+$measure: 48rem; // reading column
+
+// ---------------------------------------------------------------------------
+// Mixins
+// ---------------------------------------------------------------------------
 @mixin box-sizing($type: border-box) {
-  -webkit-box-sizing: $type;
-     -moz-box-sizing: $type;
-          box-sizing: $type;
+  box-sizing: $type;
 }
 
 @mixin transition($args...) {
-  -webkit-transition: $args;
-     -moz-transition: $args;
-          transition: $args;
+  transition: $args;
+}
+
+@mixin label {
+  font-family: $mono;
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: $ink-muted;
 }

@@ -1,19 +1,25 @@
 # Site settings
 title:          Yusuf Gürdoğan
-description:    "Blog sayfası"
+description:    "Personal blog of Yusuf Gürdoğan: software, economics, AI."
 url:            "https://yusufgurdogan.com"
+lang:           en
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+# Google Analytics (leave empty to disable)
+google_analytics:
 
 # Author
 author:
   name:         Yusuf Gürdoğan
   url:          https://yusufgurdogan.com
-  email:        example@mail.com
+
+# Social links (footer icons)
+social:
+  github:       https://github.com/yusufgurdogan
+  x:            https://x.com/YusufGurdogan
 
 # Build settings
 markdown:       kramdown
+remote_theme:   chesterhow/tale
 include:
   - _pages
 
@@ -22,28 +28,17 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
-# Gems
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jekyll-remote-theme
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
-
-remote_theme: chesterhow/tale
-
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
+# Disqus shortname (only used on posts with `comments: true`)
+disqus:

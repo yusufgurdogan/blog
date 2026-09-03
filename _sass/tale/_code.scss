@@ -1,46 +1,59 @@
 pre,
 code {
-  font-family: $monospaced;
+  font-family: $mono;
+  font-feature-settings: 'liga' 0;
 }
 
 code {
-  background-color: $grey-3;
-  border-radius: 3px;
-  color: $code-color;
-  font-size: 85%;
-  padding: .25em .5em;
+  background: $bg-raised;
+  border: 1px solid $border;
+  border-radius: 4px;
+  color: $code-inline;
+  font-size: .82em;
+  padding: .1em .4em;
 }
 
 pre {
-  margin: 0 0 1rem;
+  margin: 0 0 1.4rem;
 }
 
 pre code {
-  background-color: transparent;
+  background: transparent;
+  border: 0;
   color: inherit;
   font-size: 100%;
   padding: 0;
 }
 
-.highlight {
-  background-color: $grey-3;
-  border-radius: 3px;
-  line-height: 1.4;
-  margin: 0 0 1rem;
-  padding: 1rem;
+// Fenced code, with or without Rouge's wrapper.
+pre,
+div.highlighter-rouge,
+figure.highlight {
+  background: $bg-code;
+  border: 1px solid $border;
+  border-radius: 6px;
+  font-size: .82rem;
+  line-height: 1.55;
+  margin: 0 0 1.4rem;
+  overflow-x: auto;
+  padding: 1rem 1.1rem;
+}
 
-  pre {
-    margin-bottom: 0;
-    overflow-x: auto;
-  }
+div.highlighter-rouge pre,
+figure.highlight pre,
+.highlight pre {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: inherit;
+  margin: 0;
+  overflow-x: visible;
+  padding: 0;
+}
 
-  .lineno {
-    color: $default-tint;
-    display: inline-block; // Ensures the null space also isn't selectable
-    padding: 0 .75rem 0 .25rem;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-  }
+.highlight .lineno {
+  color: $ink-muted;
+  display: inline-block;
+  padding: 0 .75rem 0 .25rem;
+  user-select: none;
 }

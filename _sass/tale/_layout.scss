@@ -1,92 +1,104 @@
-.container {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
-
+.container,
 main,
 footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  max-width: $measure;
+  padding: 0 1.25rem;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    padding: 0 2rem;
+  }
 }
 
+// ----- header ---------------------------------------------------------------
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
-  overflow: auto;
+  &-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.2rem;
+    padding-top: 1.6rem;
+  }
+
+  // Hairline under the header, aligned to the content column.
+  &-container::after {
+    background: $border;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 1.25rem;
+    position: absolute;
+    right: 1.25rem;
+
+    @media (min-width: 600px) {
+      left: 2rem;
+      right: 2rem;
+    }
+  }
 
   &-container {
-    margin: 1rem auto;
     position: relative;
-    text-align: center;
   }
 
   &-title {
-    @include transition(all .2s ease-out);
-    color: $default-color;
-    display: inline-block;
+    font-family: $heading;
+    font-size: 1.35rem;
+    font-weight: var(--heading-weight);
+    letter-spacing: -.015em;
+    line-height: 1;
     margin: 0;
-    padding-right: .2rem;
 
-    &:hover,
-    &:focus {
-      opacity: .6;
+    a {
+      color: $ink;
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible { color: $accent; }
     }
   }
+}
 
-  ul {
-    list-style-type: none;
-    margin: 1rem 0 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  li {
-    @include transition(all .2s ease-out);
-    color: $default-color;
-    display: inline-block;
-    opacity: .6;
-    padding: 0 2rem 0 0;
-
-    &:last-child {
-      padding-right: 0;
-    }
-
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
-  }
+// ----- footer ---------------------------------------------------------------
+footer {
+  border-top: 1px solid $border;
+  color: $ink-muted;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: $mono;
+  font-size: .72rem;
+  gap: .5rem 1.5rem;
+  justify-content: space-between;
+  letter-spacing: .02em;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 
   a {
-    color: $default-color;
-    font-family: $sans-serif;
-  }
-}
+    color: $ink-muted;
+    text-decoration: none;
 
-@media (min-width: 600px) {
-  .nav {
-    &-container {
-      text-align: left;
+    &:hover,
+    &:focus-visible { color: $accent; }
+  }
+
+  .footer-icons {
+    align-items: center;
+    display: flex;
+    gap: 1.1rem;
+
+    a {
+      display: inline-flex;
+      line-height: 0;
     }
 
-    ul {
-      bottom: 0;
-      position: absolute;
-      right: 0;
+    svg {
+      fill: currentColor;
+      height: 1.05rem;
+      width: 1.05rem;
+      @include transition(color .15s ease);
     }
-  }
-}
-
-footer {
-  font-family: $serif-secondary;
-  padding: 2rem 0;
-  text-align: center;
-
-  span {
-    color: $default-color;
-    font-size: .8rem;
   }
 }
