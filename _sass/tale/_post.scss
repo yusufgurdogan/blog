@@ -140,3 +140,49 @@
   margin-top: 3rem;
   padding-top: 1.5rem;
 }
+
+// Footnotes (kramdown: text[^id] ... [^id]: note)
+sup {
+  font-size: .7em;
+  line-height: 0;
+  vertical-align: super;
+
+  a.footnote {
+    color: $accent;
+    font-family: $mono;
+    padding: 0 .1em;
+    text-decoration: none;
+
+    &::before { content: '['; }
+    &::after  { content: ']'; }
+  }
+}
+
+.footnotes {
+  border-top: 1px solid $border;
+  color: $ink-soft;
+  font-size: .88rem;
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+
+  ol {
+    padding-left: 1.4rem;
+  }
+
+  li:target {
+    color: $ink;
+  }
+
+  p {
+    margin: 0 0 .6rem;
+  }
+
+  .reversefootnote {
+    color: $ink-muted;
+    margin-left: .3em;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible { color: $accent; }
+  }
+}

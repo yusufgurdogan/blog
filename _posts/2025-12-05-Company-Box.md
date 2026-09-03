@@ -5,7 +5,6 @@ author: "Yusuf Gürdoğan"
 tags: company-box
 ---
 
-# Company box
 
 I recently incorporated in the U.S using [Clerky](https://www.clerky.com/). The entire process is online. You just click some buttons, and boom. Your company is incorporated.
 
