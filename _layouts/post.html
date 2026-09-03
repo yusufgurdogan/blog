@@ -4,14 +4,17 @@ layout: default
 
 <article class="post">
   <header class="post-header">
+    {% assign words = page.content | strip_html | number_of_words %}
     <div class="post-info">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      {% if page.tags and page.tags.size > 0 %}
-        <span>{{ page.tags | join: " · " }}</span>
-      {% endif %}
-      {% assign words = page.content | strip_html | number_of_words %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <span class="post-info-sep" aria-hidden="true">·</span>
       <span>{{ words | divided_by: 200 | plus: 1 }} min read</span>
     </div>
+    {% if page.tags and page.tags.size > 0 %}
+      <ul class="post-tags">
+        {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+    {% endif %}
 
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-line"></div>
