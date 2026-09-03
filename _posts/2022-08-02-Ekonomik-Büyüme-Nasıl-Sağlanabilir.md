@@ -3,6 +3,7 @@ layout: post
 title: "Ekonomik Büyüme Nasıl Sağlanabilir?"
 author: "Yusuf Gürdoğan"
 tags: Ekonomi, Bankacılık, Para, Kredi
+image: /assets/og/2022-08-02-ekonomik-buyume-nasil-saglanabilir.png
 ---
 
 Ekonomik büyümeyi nasıl sağlarız? Bu sorunun cevabını bulmak için bankacılık sistemini, paranın oluşumunu ve tahsisini inceleyeceğiz.

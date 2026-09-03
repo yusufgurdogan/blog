@@ -3,6 +3,7 @@ layout: post
 title: "Teşviklerin Yönü: Para Sistemi Nasıl Çalışıyor?"
 author: "Yusuf Gürdoğan"
 tags: Ekonomi, Para, Bankacılık, Kredi
+image: /assets/og/2021-10-20-tesviklerin-yonu.png
 ---
 
 # Teşviklerin yönü

@@ -3,6 +3,7 @@ layout: post
 title: "Bağımsız Ve Milli Dijital Merkez Bankası Parası"
 author: "Yusuf Gürdoğan"
 tags: DMBP
+image: /assets/og/2021-07-20-bagimsiz-ve-milli-dijital-merkez-bankasi-parasi.png
 ---
 
 Mevcut para sisteminin sorunlarını anlatan ve buna bir çözüm önerisi getiren "Nomisma - Bağımsız ve Milli Para Sistemi, Dr. Artuğ Çetin" kitabını okurken öğrendiklerimi ve aklıma gelenleri not almıştım. Çeşitli kaynaklardan araştırmalar yaptım, kripto paraları altyapılarının kullanılması gerektiğini düşündüğüm için onları da ekledim ve işte bu makale ortaya çıktı. Umarım faydalı olur.

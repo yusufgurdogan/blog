@@ -3,6 +3,7 @@ layout: post
 title: "NGINX İle Web Sunucusu Kurulumu"
 author: "Yusuf Gürdoğan"
 tags: NGINX
+image: /assets/og/2019-08-07-nginx-ile-web-sunucusu-kurulumu.png
 ---
 
 <!-- wp:paragraph -->

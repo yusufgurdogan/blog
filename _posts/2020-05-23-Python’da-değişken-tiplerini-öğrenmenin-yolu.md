@@ -3,6 +3,7 @@ layout: post
 title: "Python’da Değişken Tiplerini Öğrenmenin Yolu"
 author: "Yusuf Gürdoğan"
 tags: Python
+image: /assets/og/2020-05-23-python-da-degisken-tiplerini-ogrenmenin-yolu.png
 ---
 
 <p>&gt;&gt;&gt; x = 12345</p>

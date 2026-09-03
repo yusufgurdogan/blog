@@ -3,6 +3,7 @@ layout: post
 title: "C Programlama Fibonacci Dizisi"
 author: "Yusuf Gürdoğan"
 tags: Fibonacci
+image: /assets/og/2018-09-30-c-programlama-fibonacci-dizisi.png
 ---
 
 <!-- wp:paragraph -->

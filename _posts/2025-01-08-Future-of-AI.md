@@ -3,6 +3,7 @@ layout: post
 title: "Future of AI: Thoughts on Acceleration"
 author: "Yusuf Gürdoğan"
 tags: AI
+image: /assets/og/2025-01-08-future-of-ai.png
 ---
 
 Do I know the future? No. But it's good to make some predictions!

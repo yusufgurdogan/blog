@@ -3,6 +3,7 @@ layout: post
 title: "Ubuntu Terminalde İşe Yarayan Komutlar"
 author: "Yusuf Gürdoğan"
 tags: Ubuntu
+image: /assets/og/2018-12-22-ubuntu-terminalde-ise-yarar-komutlar.png
 ---
 
 <h2><span style="color: #33cccc;">başlangıç (1/3)</span></h2>

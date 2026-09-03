@@ -3,6 +3,7 @@ layout: post
 title: "Finansal İşlemlerinizin Topluma Etkileri"
 author: "Yusuf Gürdoğan"
 tags: Finans, Ekonomi
+image: /assets/og/2023-11-24-finansal-islemlerinizin-topluma-etkileri.png
 ---
 
 *[Click to view the English version of this article on Medium](https://medium.com/@yusufgurdogan/social-consequences-of-your-financial-actions-7972064771c1).*

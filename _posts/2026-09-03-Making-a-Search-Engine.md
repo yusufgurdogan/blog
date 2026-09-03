@@ -3,6 +3,7 @@ layout: post
 title: "i'm making a search engine"
 author: "Yusuf Gürdoğan"
 tags: search-engine, sofya
+image: /assets/og/2026-09-03-making-a-search-engine.png
 ---
 
 it's live at [search.sofya.co](https://search.sofya.co), please search for whatever you like and see how the results are. and know that inshallah it's going to be much better than this!

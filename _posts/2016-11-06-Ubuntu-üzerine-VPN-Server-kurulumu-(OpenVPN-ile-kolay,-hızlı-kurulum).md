@@ -3,6 +3,7 @@ layout: post
 title: "Ubuntu Üzerine VPN Server Kurulumu (OpenVPN ile Kolay, Hızlı Kurulum)"
 author: "Yusuf Gürdoğan"
 tags: OpenVPN, Ubuntu
+image: /assets/og/2016-11-06-ubuntu-uzerine-vpn-server-kurulumu-openvpn-ile-kolay-hizli-kurulum.png
 ---
 
 Ubuntu üzerine OpenVPN server kuracağız ve çok basit olacak.

@@ -17,6 +17,16 @@ social:
   github:       https://github.com/yusufgurdogan
   x:            https://x.com/YusufGurdogan
 
+# Share cards (jekyll-seo-tag)
+twitter:
+  username:     YusufGurdogan
+  card:         summary_large_image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og/default.png
+
 # Build settings
 markdown:       kramdown
 remote_theme:   chesterhow/tale
