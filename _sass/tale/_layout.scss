@@ -14,6 +14,45 @@ footer,
 }
 
 // ----- header ---------------------------------------------------------------
+.theme-toggle {
+  align-items: center;
+  background: transparent;
+  border: 1px solid $border-strong;
+  border-radius: 999px;
+  color: $ink-muted;
+  cursor: pointer;
+  display: inline-flex;
+  height: 2.1rem;
+  justify-content: center;
+  padding: 0;
+  width: 2.1rem;
+  @include transition(color .15s ease, border-color .15s ease);
+
+  svg {
+    fill: none;
+    height: 1.05rem;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 1.05rem;
+  }
+
+  .icon-sun { display: none; }
+  .icon-moon { display: block; }
+
+  &:hover,
+  &:focus-visible {
+    border-color: $accent;
+    color: $accent;
+  }
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  .icon-sun { display: block; }
+  .icon-moon { display: none; }
+}
+
 .nav {
   &-container {
     align-items: center;
@@ -62,26 +101,32 @@ footer,
 }
 
 // ----- footer ---------------------------------------------------------------
+// Full-bleed amber band, like the share cards.
 footer {
-  border-top: 1px solid $border;
-  color: $ink-muted;
+  align-items: center;
+  background: $accent-bar;
+  box-shadow: 0 0 0 100vmax $accent-bar;
+  clip-path: inset(0 -100vmax);
+  color: $band-ink;
   display: flex;
   flex-wrap: wrap;
   font-family: $mono;
-  font-size: .72rem;
+  font-size: .78rem;
+  font-weight: 600;
   gap: .5rem 1.5rem;
   justify-content: space-between;
-  letter-spacing: .02em;
+  letter-spacing: .04em;
   margin-top: 4rem;
-  padding-bottom: 2rem;
-  padding-top: 1.5rem;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
+  text-transform: uppercase;
 
   a {
-    color: $ink-muted;
+    color: $band-ink;
     text-decoration: none;
 
     &:hover,
-    &:focus-visible { color: $accent; }
+    &:focus-visible { opacity: .6; }
   }
 
   .footer-icons {

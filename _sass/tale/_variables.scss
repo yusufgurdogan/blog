@@ -1,21 +1,26 @@
 // ---------------------------------------------------------------------------
 // Palette: near-black ground, warm off-white ink, a single amber accent.
 // ---------------------------------------------------------------------------
-$bg:            #0c0c0e;
-$bg-raised:     #141417;
-$bg-code:       #111114;
-$border:        #232328;
-$border-strong: #34343b;
+// Colours live in CSS custom properties (see _base.scss) so the light and
+// dark themes can swap them at runtime. These Sass names just point at them.
+$bg:            var(--bg);
+$bg-raised:     var(--bg-raised);
+$bg-code:       var(--bg-code);
+$border:        var(--border);
+$border-strong: var(--border-strong);
 
-$ink:           #e8e5de;
-$ink-soft:      #b9b5ac;
-$ink-muted:     #7d7a72;
+$ink:           var(--ink);
+$ink-soft:      var(--ink-soft);
+$ink-muted:     var(--ink-muted);
 
-$accent:        #e5b04c;
-$accent-soft:   rgba(229, 176, 76, .16);
-$selection:     rgba(229, 176, 76, .28);
+$accent:        var(--accent);       // amber as text (links, hovers, refs)
+$accent-bar:    var(--accent-bar);   // amber as a surface (rules, band)
+$accent-soft:   var(--accent-soft);
+$selection:     var(--selection);
+$link-underline: var(--link-underline);
+$band-ink:      var(--band-ink);
 
-$code-inline:   #f0c674;
+$code-inline:   var(--code-inline);
 
 // Old Tale names, kept so nothing referring to them breaks.
 $default-color: $ink;

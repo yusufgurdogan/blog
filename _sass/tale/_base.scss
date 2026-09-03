@@ -3,6 +3,25 @@
 }
 
 :root {
+  color-scheme: light;
+
+  // Light "paper" palette matching the share cards.
+  --bg:             #f7f4ed;
+  --bg-raised:      #efeadf;
+  --bg-code:        #141417;   // code blocks stay dark in both themes
+  --border:         #e3ddd0;
+  --border-strong:  #cfc7b6;
+  --ink:            #1c1a18;
+  --ink-soft:       #4a4640;
+  --ink-muted:      #7a746a;
+  --accent:         #b07a14;
+  --accent-bar:     #e5b04c;
+  --accent-soft:    rgba(229, 176, 76, .22);
+  --selection:      rgba(229, 176, 76, .45);
+  --link-underline: rgba(176, 122, 20, .45);
+  --band-ink:       #18140c;
+  --code-inline:    #8a5d0b;
+
   --font-sans: 'Literata', 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
   --font-heading: var(--font-sans);
   --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
@@ -10,6 +29,26 @@
   --base-size-lg: 18px;
   --line-height: 1.65;
   --heading-weight: 700;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg:             #0c0c0e;
+  --bg-raised:      #141417;
+  --bg-code:        #111114;
+  --border:         #232328;
+  --border-strong:  #34343b;
+  --ink:            #e8e5de;
+  --ink-soft:       #b9b5ac;
+  --ink-muted:      #7d7a72;
+  --accent:         #e5b04c;
+  --accent-bar:     #e5b04c;
+  --accent-soft:    rgba(229, 176, 76, .16);
+  --selection:      rgba(229, 176, 76, .28);
+  --link-underline: rgba(229, 176, 76, .55);
+  --band-ink:       #18140c;
+  --code-inline:    #f0c674;
 }
 
 html {
@@ -34,9 +73,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background:
-    radial-gradient(60rem 30rem at 50% -10rem, rgba(229, 176, 76, .06), transparent 70%),
-    $bg;
+  background: $bg;
 }
 
 main {
@@ -73,7 +110,7 @@ li {
 a {
   color: $ink;
   text-decoration: underline;
-  text-decoration-color: rgba(229, 176, 76, .55);
+  text-decoration-color: $link-underline;
   text-decoration-thickness: 1px;
   text-underline-offset: .18em;
   @include transition(color .15s ease, text-decoration-color .15s ease);
@@ -97,7 +134,7 @@ hr {
 }
 
 blockquote {
-  border-left: 2px solid $accent;
+  border-left: 2px solid $accent-bar;
   color: $ink-soft;
   margin: 1.6rem 0;
   padding: .2rem 0 .2rem 1.25rem;

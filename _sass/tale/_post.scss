@@ -32,7 +32,7 @@
   }
 
   &-line {
-    background: $accent;
+    background: $accent-bar;
     display: block;
     height: 2px;
     margin: 1.4rem 0 0;
@@ -70,7 +70,7 @@
     [style*="background"] {
       background: $bg-raised !important;
       border: 1px solid $border;
-      border-left: 2px solid $accent;
+      border-left: 2px solid $accent-bar;
       border-radius: 4px;
       color: $ink-soft !important;
       padding: .8rem 1rem;

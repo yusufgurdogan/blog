@@ -9,6 +9,7 @@ code {
   border: 1px solid $border;
   border-radius: 4px;
   color: $code-inline;
+  font-weight: 500;
   font-size: .82em;
   padding: .1em .4em;
 }
@@ -31,6 +32,7 @@ div.highlighter-rouge,
 figure.highlight {
   background: $bg-code;
   border: 1px solid $border;
+  color: #d6d3cc;
   border-radius: 6px;
   font-size: .82rem;
   line-height: 1.55;
