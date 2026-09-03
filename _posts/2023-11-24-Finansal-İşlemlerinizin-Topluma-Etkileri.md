@@ -2,7 +2,7 @@
 layout: post
 title: "Finansal İşlemlerinizin Topluma Etkileri"
 author: "Yusuf Gürdoğan"
-tags: Finans, Ekonomi
+tags: [Finans, Ekonomi]
 image: /assets/og/2023-11-24-finansal-islemlerinizin-topluma-etkileri.png
 ---
 

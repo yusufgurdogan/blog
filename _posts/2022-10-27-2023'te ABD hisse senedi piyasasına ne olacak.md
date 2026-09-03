@@ -2,7 +2,7 @@
 layout: post
 title: "2023'te ABD Hisse Senedi Piyasasına Ne Olacak?"
 author: "Yusuf Gürdoğan"
-tags: Finans, Ekonomi
+tags: [Finans, Ekonomi]
 image: /assets/og/2022-10-27-2023-te-abd-hisse-senedi-piyasasina-ne-olacak.png
 ---
 

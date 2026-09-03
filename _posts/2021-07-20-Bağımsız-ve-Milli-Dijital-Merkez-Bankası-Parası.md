@@ -2,7 +2,7 @@
 layout: post
 title: "Bağımsız Ve Milli Dijital Merkez Bankası Parası"
 author: "Yusuf Gürdoğan"
-tags: DMBP
+tags: [DMBP]
 image: /assets/og/2021-07-20-bagimsiz-ve-milli-dijital-merkez-bankasi-parasi.png
 ---
 

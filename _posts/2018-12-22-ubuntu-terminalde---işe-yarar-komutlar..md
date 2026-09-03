@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu Terminalde İşe Yarayan Komutlar"
 author: "Yusuf Gürdoğan"
-tags: Ubuntu
+tags: [Ubuntu]
 image: /assets/og/2018-12-22-ubuntu-terminalde-ise-yarar-komutlar.png
 ---
 

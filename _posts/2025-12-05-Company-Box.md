@@ -2,7 +2,7 @@
 layout: post
 title: "Company Box"
 author: "Yusuf Gürdoğan"
-tags: company-box
+tags: [company-box]
 image: /assets/og/2025-12-05-company-box.png
 ---
 

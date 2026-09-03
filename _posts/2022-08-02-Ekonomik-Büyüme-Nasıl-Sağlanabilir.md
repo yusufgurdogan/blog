@@ -2,7 +2,7 @@
 layout: post
 title: "Ekonomik Büyüme Nasıl Sağlanabilir?"
 author: "Yusuf Gürdoğan"
-tags: Ekonomi, Bankacılık, Para, Kredi
+tags: [Ekonomi, Bankacılık, Para, Kredi]
 image: /assets/og/2022-08-02-ekonomik-buyume-nasil-saglanabilir.png
 ---
 

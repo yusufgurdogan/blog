@@ -2,7 +2,7 @@
 layout: post
 title: "i'm making a search engine"
 author: "Yusuf Gürdoğan"
-tags: search-engine, sofya
+tags: [search-engine, sofya]
 image: /assets/og/2026-09-03-making-a-search-engine.png
 ---
 
